@@ -16,7 +16,7 @@ servo5.attach(11);
   // put your setup code here, to run once:
 }
 
-void loop() { for (i =0; i < 180; i++) {
+void loop() { for (i =0; i < 90; i++) {
   servo1.write(i);
 servo2.write(i);
 servo3.write(i);
